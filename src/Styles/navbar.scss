@@ -1,0 +1,40 @@
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list-items {
+    margin: 0 10px;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #6964FF;
+    }
+}
+
+.active {
+    color: #6964FF;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.normal {
+    color: #ffffff;
+    font-size: 15px;
+}
